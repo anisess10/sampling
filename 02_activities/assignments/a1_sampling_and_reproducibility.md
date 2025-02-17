@@ -34,18 +34,18 @@ My Answer:
     Sampling Frame: all infected individuals 
 
 3. Secondary Contact Tracing 
-    If more than two individuals from an event are traced in a primary contract tracing, then all infected attendees of that event are  traced. 
+    If more than two individuals from an event are traced in a primary contact tracing, then all infected attendees of that event are  traced. 
     Sample Size: All infected attended 
     Sampling Frame: Events with more than 2 traced cases
 
 4. Run the simulation 50000 times 
     Sample Size: 50000 iterations
-    Distribution : Normal size distribution
+    Distribution : Normal distribution
 
 Question: Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
 
-    >> In both graph from our simulation and blog post, the results are similar, where the proportion of infections from weddings revolves around 0.20 (20% of attendees).
-    >> After performing contact tracing, both grahs showcase higher observed traced cases linked to weddings (peaking  at 0.25 from our simulation ). That sad, the code indeed yields the same observation from the orginal blog post , further confirming the blog post's argument that tracing introduces bias. 
+    >> In both graph from our simulation and the blog post, the results are similar, where the proportion of infections from weddings revolves around 0.20 (20% of attendees).
+    >> After performing contact tracing, both grahs showcase higher observed traced cases linked to weddings (peaking  at 0.25 in our simulation ). That said, the code produces  the same observation from the orginal blog post , further confirming the blog post's argument contact that tracing introduces bias. 
 
 Question: Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
     At 1000 repetitions: ![alt text](image.png)
