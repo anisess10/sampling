@@ -10,12 +10,49 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Anis Bouazra
 
-```
-Please write your explanation here...
+Question: Examine the code in `whitby_covid_tracing.py`. Identify all stages at which sampling is occurring in the model. Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
 
-```
+My Answer: 
+
+1. Sampling individuals with infection: 
+    Python Code: ATTACK_RATE = 0.10
+                 events = ['wedding'] * 200 + ['brunch'] * 800
+                    ppl = pd.DataFrame({
+                    'event': events,
+                    'infected': False,
+                    'traced': np.nan  # Initially setting traced status as NaN
+                })
+    Explanation: 
+    Randomly select 10% of attendees 
+    Sample Size : 1000 attendees * ATTACK_RATE (10%) = 100 infected
+    Sampling Frame: all attendees
+
+2. Primary Contact Tracing 
+    Sample Size: 100 infected * 20% (TRACE_SUCCESS = 0.20) = 20 Traced
+    Sampling Frame: all infected individuals 
+
+3. Secondary Contact Tracing 
+    If more than two individuals from an event are traced in a primary contract tracing, then all infected attendees of that event are  traced. 
+    Sample Size: All infected attended 
+    Sampling Frame: Events with more than 2 traced cases
+
+4. Run the simulation 50000 times 
+    Sample Size: 50000 iterations
+    Distribution : Normal size distribution
+
+Question: Run the Python script file called whitby_covid_tracing.py as is and compare the results to the graphs in the original blog post. Does this code appear to reproduce the graphs from the original blog post?
+
+    >> In both graph from our simulation and blog post, the results are similar, where the proportion of infections from weddings revolves around 0.20 (20% of attendees).
+    >> After performing contact tracing, both grahs showcase higher observed traced cases linked to weddings (peaking  at 0.25 from our simulation ). That sad, the code indeed yields the same observation from the orginal blog post , further confirming the blog post's argument that tracing introduces bias. 
+
+Question: Modify the number of repetitions in the simulation to 1000 (from the original 50000). Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+    At 1000 repetitions: ![alt text](image.png)
+    At 5000 repetitions: ![alt text](<Screenshot 2025-02-17 163338.png>)
+With fewer iterations, the simulation distribution has higher variance, leading to noisier results (law of large numbers) , however, Even with 1,000 runs, the mean picks close to 0.20. 
+
+
 
 
 ## Criteria
