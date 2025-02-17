@@ -52,6 +52,8 @@ Question: Modify the number of repetitions in the simulation to 1000 (from the o
     At 5000 repetitions: ![alt text](<Screenshot 2025-02-17 163338.png>)
 With fewer iterations, the simulation distribution has higher variance, leading to noisier results (law of large numbers) , however, Even with 1,000 runs, the mean picks close to 0.20. 
 
+Questions: Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
+    To ensure the reproduciblity of our code, i added a random seed function to ensure consistency every time we execute our code, with identical results everytime we execute our code  (E.g: np.random.seed(40))
 
 
 
