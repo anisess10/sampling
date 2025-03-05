@@ -90,6 +90,32 @@ Your 5-10 question survey:
         (Open-ended answer)
 
 
+Part B - Survey Evaluation:
+Identify and describe survey features:
+```
+    Survey Type: This is a mixed-method survey since it includes both quantitative questions (multiple-choice) and qualitative questions (open-ended responses).
+
+    Survey Mode: The survey can be conducted online or paper-based, depending on employee accessibility and preference.
+
+    Question Types :
+
+        Closed-ended questions: These include multiple-choice (e.g., Question 1) 
+        Multiple-response questions: These allow employees to select multiple options (e.g., Question 3).
+        Open-ended questions: These provide space for employees to share detailed opinions (e.g., Questions 6, 8).
+
+    Survey Length: The survey contains 8 questions, making it short and manageable to encourage participation while still gathering meaningful insights.
+
+
+    Confidentiality & Anonymity:  To encourage honest feedback, responses should  be anonymous or confidential, ensuring employees feel safe sharing their opinions without fear of consequences.
+
+
+
+
+
+
+
+
+
 ## Rubric
 
 -	All required components are present and complete **Complete / Incomplete**
