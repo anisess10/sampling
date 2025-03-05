@@ -16,31 +16,105 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#`1
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The survey is meant to gather honest and unbiased feedback from employees about their job satisfaction and experiences at the company. We’re trying to figure out why there’s been high turnover especially in entry and lower-level positions and what could be done to make things better.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Current  employees at the company.
+Sampling Frame: The list of employees from HR, including exit interviews where available.
+Sampling Units: Individual employees.
+Sampling Strategy: I plan to use a stratified random sampling approach to ensure we get representation from different departments and locations within the company.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+    1.How long have you worked at the company?
+
+        Less than 6 months
+        6-12 months
+        1-2 years
+        More than 2 years
+    
+    2.How satisfied are you with your current role/responsibilities?
+
+        Very unsatisfied
+        Unsatisfied
+        Neutral
+        Satisfied
+        Very satisfied
+    
+    3.Which of the following factors most influenced your decision to stay or leave? (Select all that apply)
+
+        Work-life balance
+        Salary and benefits
+        Management/leadership support
+        Career growth opportunities
+        Company culture
+        Other (please specify): __________
+
+    4.Do you feel that you have enough opportunities for professional development?
+
+        Yes
+        No
+        Not sure
+        (Optional: Please explain your answer.)
+
+    5.How well do you think your efforts and achievements are recognized by your supervisor or the company?
+
+        Not at all
+        Slightly
+        Moderately
+        Well
+        Very well
+
+
+    6.How would you rate the communication between management and staff?
+
+        Poor
+        Fair
+        Good
+        Very good
+        Excellent
+
+    7.What suggestions do you have for improving job satisfaction at our company?
+        
+        (Open-ended answer)
+    
+    8.What is the main reason you considered leaving the company?
+        (Open-ended answer)
+
+
+Part B - Survey Evaluation:
+Identify and describe survey features:
 ```
+    Survey Type: This is a mixed-method survey since it includes both quantitative questions (multiple-choice) and qualitative questions (open-ended responses).
+
+    Survey Mode: The survey can be conducted online or paper-based, depending on employee accessibility and preference.
+
+    Question Types :
+
+        Closed-ended questions: These include multiple-choice (e.g., Question 1) 
+        Multiple-response questions: These allow employees to select multiple options (e.g., Question 3).
+        Open-ended questions: These provide space for employees to share detailed opinions (e.g., Questions 6, 8).
+
+    Survey Length: The survey contains 8 questions, making it short and manageable to encourage participation while still gathering meaningful insights.
+
+
+    Confidentiality & Anonymity:  To encourage honest feedback, responses should  be anonymous or confidential, ensuring employees feel safe sharing their opinions without fear of consequences.
+
+
+
+
+
+
+
+
 
 ## Rubric
 
